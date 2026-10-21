@@ -5,5 +5,7 @@
   "account_id": "73bcb77184e5fe154e60f50e5f16821d",
   "compatibility_date": "2026-10-21",
   "workers_dev": true,
+  "preview_urls": false,
+  "routes": [{"pattern":"status-backup.dashcloudly.com","custom_domain":true}],
   "observability": {"enabled": false}
 }
