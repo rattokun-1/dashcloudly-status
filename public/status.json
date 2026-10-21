@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-21T22:39:47.339Z",
+  "checkedAt": "2026-10-21T22:54:47.853Z",
   "notice": "Discord Bot・Rustサーバー・その他の停止中サービスは再開時期未定です。これらは本ページのHTTP監視対象に含みません。",
   "mainStatus": "https://status.dashcloudly.com/ja",
   "services": [
@@ -9,7 +9,7 @@
       "url": "https://english.dashcloudly.com/",
       "status": "up",
       "httpStatus": 200,
-      "latencyMs": 536
+      "latencyMs": 635
     },
     {
       "id": "kobun",
@@ -17,7 +17,7 @@
       "url": "https://kobun.dashcloudly.com/",
       "status": "up",
       "httpStatus": 200,
-      "latencyMs": 463
+      "latencyMs": 593
     },
     {
       "id": "identity",
@@ -25,7 +25,7 @@
       "url": "https://id-login.dashcloudly.com/",
       "status": "up",
       "httpStatus": 200,
-      "latencyMs": 503
+      "latencyMs": 621
     },
     {
       "id": "tango",
@@ -33,7 +33,7 @@
       "url": "https://tanq.dashcloudly.com/",
       "status": "up",
       "httpStatus": 200,
-      "latencyMs": 588
+      "latencyMs": 683
     },
     {
       "id": "portfolio",
@@ -42,7 +42,7 @@
       "maintenance": true,
       "status": "maintenance",
       "httpStatus": 503,
-      "latencyMs": 405
+      "latencyMs": 518
     },
     {
       "id": "status",
@@ -50,7 +50,7 @@
       "url": "https://status.dashcloudly.com/ja",
       "status": "up",
       "httpStatus": 200,
-      "latencyMs": 583
+      "latencyMs": 599
     }
   ],
   "events": []
