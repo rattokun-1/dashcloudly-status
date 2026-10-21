@@ -15,7 +15,13 @@ export async function collect(config,previous={},fetcher=fetch,timeout=10000) {
   const services=await Promise.all(config.services.map(async service=>{
     let result=await probe(service,fetcher,timeout);
     if(result.status==='down')result=await probe(service,fetcher,timeout);
-    return {...service,...result,status:service.maintenance?'maintenance':result.status};
+    const status=service.maintenance?'maintenance':result.status;
+    const before=previous.services?.find(row=>row.id===service.id);
+    const history={...(before?.history||{})},date=checkedAt.slice(0,10);
+    const day=history[date]||{up:0,down:0,maintenance:0};day[status]=(day[status]||0)+1;history[date]=day;
+    for(const key of Object.keys(history).sort().slice(0,-90))delete history[key];
+    const samples=[...(before?.samples||[]),{at:checkedAt,status,ms:result.latencyMs}].slice(-288);
+    return {...service,...result,status,history,samples};
   }));
   const events=[...(previous.events||[])];
   for(const service of services){
