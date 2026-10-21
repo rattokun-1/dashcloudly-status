@@ -1,0 +1,12 @@
+{
+  "services": [
+    {"id":"english","name":"英単語学習","url":"https://english.dashcloudly.com/"},
+    {"id":"kobun","name":"ことのは単語","url":"https://kobun.dashcloudly.com/"},
+    {"id":"identity","name":"共通ログイン","url":"https://id-login.dashcloudly.com/"},
+    {"id":"tango","name":"TANGO","url":"https://tanq.dashcloudly.com/"},
+    {"id":"portfolio","name":"ポートフォリオ","url":"https://dashcloudly.com/","maintenance":true},
+    {"id":"status","name":"メインステータスページ","url":"https://status.dashcloudly.com/ja"}
+  ],
+  "notice":"Discord Bot・Rustサーバー・その他の停止中サービスは再開時期未定です。これらは本ページのHTTP監視対象に含みません。",
+  "mainStatus":"https://status.dashcloudly.com/ja"
+}

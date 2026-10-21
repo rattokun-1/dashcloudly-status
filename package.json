@@ -1,0 +1,1 @@
+{"name":"dashcloudly-status","private":true,"type":"module","scripts":{"test":"node --test test/*.test.mjs","monitor":"node scripts/monitor.mjs"}}

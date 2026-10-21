@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-10-21T22:39:02.634Z",
+  "notice": "Discord Bot・Rustサーバー・その他の停止中サービスは再開時期未定です。これらは本ページのHTTP監視対象に含みません。",
+  "mainStatus": "https://status.dashcloudly.com/ja",
+  "services": [
+    {
+      "id": "english",
+      "name": "英単語学習",
+      "url": "https://english.dashcloudly.com/",
+      "status": "up",
+      "httpStatus": 200,
+      "latencyMs": 223
+    },
+    {
+      "id": "kobun",
+      "name": "ことのは単語",
+      "url": "https://kobun.dashcloudly.com/",
+      "status": "up",
+      "httpStatus": 200,
+      "latencyMs": 157
+    },
+    {
+      "id": "identity",
+      "name": "共通ログイン",
+      "url": "https://id-login.dashcloudly.com/",
+      "status": "up",
+      "httpStatus": 200,
+      "latencyMs": 151
+    },
+    {
+      "id": "tango",
+      "name": "TANGO",
+      "url": "https://tanq.dashcloudly.com/",
+      "status": "up",
+      "httpStatus": 200,
+      "latencyMs": 156
+    },
+    {
+      "id": "portfolio",
+      "name": "ポートフォリオ",
+      "url": "https://dashcloudly.com/",
+      "maintenance": true,
+      "status": "maintenance",
+      "httpStatus": 503,
+      "latencyMs": 81
+    },
+    {
+      "id": "status",
+      "name": "メインステータスページ",
+      "url": "https://status.dashcloudly.com/ja",
+      "status": "up",
+      "httpStatus": 200,
+      "latencyMs": 1079
+    }
+  ],
+  "events": []
+}
