@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-22T13:26:25.953Z",
+  "checkedAt": "2026-10-22T15:40:45.376Z",
   "notice": "Discord Bot・Rustサーバー・その他の停止中サービスは再開時期未定です。これらは本ページのHTTP監視対象に含みません。",
   "mainStatus": "https://status.dashcloudly.com/ja",
   "services": [
@@ -9,7 +9,7 @@
       "url": "https://english.dashcloudly.com/",
       "status": "up",
       "httpStatus": 200,
-      "latencyMs": 760,
+      "latencyMs": 656,
       "history": {
         "2026-10-21": {
           "up": 1,
@@ -17,7 +17,7 @@
           "maintenance": 0
         },
         "2026-10-22": {
-          "up": 4,
+          "up": 5,
           "down": 0,
           "maintenance": 0
         }
@@ -47,6 +47,11 @@
           "at": "2026-10-22T13:26:25.953Z",
           "status": "up",
           "ms": 760
+        },
+        {
+          "at": "2026-10-22T15:40:45.376Z",
+          "status": "up",
+          "ms": 656
         }
       ]
     },
@@ -56,7 +61,7 @@
       "url": "https://kobun.dashcloudly.com/",
       "status": "up",
       "httpStatus": 200,
-      "latencyMs": 724,
+      "latencyMs": 702,
       "history": {
         "2026-10-21": {
           "up": 1,
@@ -64,7 +69,7 @@
           "maintenance": 0
         },
         "2026-10-22": {
-          "up": 4,
+          "up": 5,
           "down": 0,
           "maintenance": 0
         }
@@ -94,6 +99,11 @@
           "at": "2026-10-22T13:26:25.953Z",
           "status": "up",
           "ms": 724
+        },
+        {
+          "at": "2026-10-22T15:40:45.376Z",
+          "status": "up",
+          "ms": 702
         }
       ]
     },
@@ -103,7 +113,7 @@
       "url": "https://id-login.dashcloudly.com/",
       "status": "up",
       "httpStatus": 200,
-      "latencyMs": 683,
+      "latencyMs": 703,
       "history": {
         "2026-10-21": {
           "up": 1,
@@ -111,7 +121,7 @@
           "maintenance": 0
         },
         "2026-10-22": {
-          "up": 4,
+          "up": 5,
           "down": 0,
           "maintenance": 0
         }
@@ -141,6 +151,11 @@
           "at": "2026-10-22T13:26:25.953Z",
           "status": "up",
           "ms": 683
+        },
+        {
+          "at": "2026-10-22T15:40:45.376Z",
+          "status": "up",
+          "ms": 703
         }
       ]
     },
@@ -150,7 +165,7 @@
       "url": "https://tanq.dashcloudly.com/",
       "status": "up",
       "httpStatus": 200,
-      "latencyMs": 741,
+      "latencyMs": 746,
       "history": {
         "2026-10-21": {
           "up": 1,
@@ -158,7 +173,7 @@
           "maintenance": 0
         },
         "2026-10-22": {
-          "up": 4,
+          "up": 5,
           "down": 0,
           "maintenance": 0
         }
@@ -188,6 +203,11 @@
           "at": "2026-10-22T13:26:25.953Z",
           "status": "up",
           "ms": 741
+        },
+        {
+          "at": "2026-10-22T15:40:45.376Z",
+          "status": "up",
+          "ms": 746
         }
       ]
     },
@@ -195,9 +215,9 @@
       "id": "portfolio",
       "name": "ポートフォリオ",
       "url": "https://dashcloudly.com/",
-      "status": "up",
-      "httpStatus": 200,
-      "latencyMs": 768,
+      "status": "down",
+      "httpStatus": null,
+      "latencyMs": null,
       "history": {
         "2026-10-21": {
           "up": 0,
@@ -206,7 +226,7 @@
         },
         "2026-10-22": {
           "up": 1,
-          "down": 0,
+          "down": 1,
           "maintenance": 3
         }
       },
@@ -235,6 +255,11 @@
           "at": "2026-10-22T13:26:25.953Z",
           "status": "up",
           "ms": 768
+        },
+        {
+          "at": "2026-10-22T15:40:45.376Z",
+          "status": "down",
+          "ms": null
         }
       ]
     },
@@ -244,7 +269,7 @@
       "url": "https://status.dashcloudly.com/ja",
       "status": "up",
       "httpStatus": 200,
-      "latencyMs": 1813,
+      "latencyMs": 855,
       "history": {
         "2026-10-21": {
           "up": 1,
@@ -252,7 +277,7 @@
           "maintenance": 0
         },
         "2026-10-22": {
-          "up": 4,
+          "up": 5,
           "down": 0,
           "maintenance": 0
         }
@@ -282,11 +307,23 @@
           "at": "2026-10-22T13:26:25.953Z",
           "status": "up",
           "ms": 1813
+        },
+        {
+          "at": "2026-10-22T15:40:45.376Z",
+          "status": "up",
+          "ms": 855
         }
       ]
     }
   ],
   "events": [
+    {
+      "id": "portfolio",
+      "name": "ポートフォリオ",
+      "from": "up",
+      "to": "down",
+      "at": "2026-10-22T15:40:45.376Z"
+    },
     {
       "id": "portfolio",
       "name": "ポートフォリオ",
