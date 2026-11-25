@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-25T09:05:40.562Z",
+  "checkedAt": "2026-11-25T19:11:39.109Z",
   "notice": "Discord Bot・Rustサーバー・その他の停止中サービスは再開時期未定です。これらは本ページのHTTP監視対象に含みません。",
   "mainStatus": "https://status.dashcloudly.com/ja",
   "services": [
@@ -9,7 +9,7 @@
       "url": "https://english.dashcloudly.com/",
       "status": "up",
       "httpStatus": 200,
-      "latencyMs": 487,
+      "latencyMs": 711,
       "history": {
         "2026-10-21": {
           "up": 1,
@@ -187,7 +187,7 @@
           "maintenance": 0
         },
         "2026-11-25": {
-          "up": 2,
+          "up": 3,
           "down": 0,
           "maintenance": 0
         }
@@ -932,6 +932,11 @@
           "at": "2026-11-25T09:05:40.562Z",
           "status": "up",
           "ms": 487
+        },
+        {
+          "at": "2026-11-25T19:11:39.109Z",
+          "status": "up",
+          "ms": 711
         }
       ]
     },
@@ -941,7 +946,7 @@
       "url": "https://kobun.dashcloudly.com/",
       "status": "up",
       "httpStatus": 200,
-      "latencyMs": 456,
+      "latencyMs": 657,
       "history": {
         "2026-10-21": {
           "up": 1,
@@ -1119,7 +1124,7 @@
           "maintenance": 0
         },
         "2026-11-25": {
-          "up": 2,
+          "up": 3,
           "down": 0,
           "maintenance": 0
         }
@@ -1864,6 +1869,11 @@
           "at": "2026-11-25T09:05:40.562Z",
           "status": "up",
           "ms": 456
+        },
+        {
+          "at": "2026-11-25T19:11:39.109Z",
+          "status": "up",
+          "ms": 657
         }
       ]
     },
@@ -2052,7 +2062,7 @@
         },
         "2026-11-25": {
           "up": 0,
-          "down": 2,
+          "down": 3,
           "maintenance": 0
         }
       },
@@ -2796,6 +2806,11 @@
           "at": "2026-11-25T09:05:40.562Z",
           "status": "down",
           "ms": null
+        },
+        {
+          "at": "2026-11-25T19:11:39.109Z",
+          "status": "down",
+          "ms": null
         }
       ]
     },
@@ -2805,7 +2820,7 @@
       "url": "https://tanq.dashcloudly.com/",
       "status": "up",
       "httpStatus": 200,
-      "latencyMs": 603,
+      "latencyMs": 840,
       "history": {
         "2026-10-21": {
           "up": 1,
@@ -2983,7 +2998,7 @@
           "maintenance": 0
         },
         "2026-11-25": {
-          "up": 2,
+          "up": 3,
           "down": 0,
           "maintenance": 0
         }
@@ -3728,6 +3743,11 @@
           "at": "2026-11-25T09:05:40.562Z",
           "status": "up",
           "ms": 603
+        },
+        {
+          "at": "2026-11-25T19:11:39.109Z",
+          "status": "up",
+          "ms": 840
         }
       ]
     },
@@ -3737,7 +3757,7 @@
       "url": "https://dashcloudly.com/",
       "status": "up",
       "httpStatus": 200,
-      "latencyMs": 515,
+      "latencyMs": 684,
       "history": {
         "2026-10-21": {
           "up": 0,
@@ -3915,7 +3935,7 @@
           "maintenance": 0
         },
         "2026-11-25": {
-          "up": 2,
+          "up": 3,
           "down": 0,
           "maintenance": 0
         }
@@ -4660,6 +4680,11 @@
           "at": "2026-11-25T09:05:40.562Z",
           "status": "up",
           "ms": 515
+        },
+        {
+          "at": "2026-11-25T19:11:39.109Z",
+          "status": "up",
+          "ms": 684
         }
       ]
     },
@@ -4669,7 +4694,7 @@
       "url": "https://status.dashcloudly.com/ja",
       "status": "up",
       "httpStatus": 200,
-      "latencyMs": 973,
+      "latencyMs": 966,
       "history": {
         "2026-10-21": {
           "up": 1,
@@ -4847,7 +4872,7 @@
           "maintenance": 0
         },
         "2026-11-25": {
-          "up": 2,
+          "up": 3,
           "down": 0,
           "maintenance": 0
         }
@@ -5592,6 +5617,11 @@
           "at": "2026-11-25T09:05:40.562Z",
           "status": "up",
           "ms": 973
+        },
+        {
+          "at": "2026-11-25T19:11:39.109Z",
+          "status": "up",
+          "ms": 966
         }
       ]
     }
